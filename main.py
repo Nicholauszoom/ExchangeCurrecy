@@ -1,5 +1,5 @@
 import requests
-from key import apikey
+from config import apikey
 
 
 response = requests.get(apikey)
